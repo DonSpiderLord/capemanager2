@@ -1,0 +1,98 @@
+#Plugin intended only for use on U-PvP Network Servers.
+#Author: DonSpiderLord
+#Plugin Use On Other Servers Strictly Prohibited.
+#Latest Version: 17/10/2019 23:17
+---
+name: CapeManager2
+author: DonSpiderLord
+version: 1.1.4
+description: Plugin that lets you choose Mojang Capes.
+main: DonSpiderLord\CapeManager2\Main
+api: 3.9.3
+
+commands:
+  capes2:
+    description: Choose a Cape!
+    usage: /capes2
+
+permissions:
+  capes2.all:
+    description: Allows using every Cape
+    default: op
+    children:
+      capes2.cmd:
+        description: Allows opening the Cape GUI
+        default: op
+      1MCape.cape:
+        description: 1M Copies Sold Cape Perm.
+        default: op
+      Bacon.cape:
+        description: Bacon Cape Perm.
+        default: op
+      BugTracker.cape:
+        description: BugTracker Cape Perm.
+        default: op
+      cheapsh0t.cape:
+        description: cheapsh0t Cape Perm.
+        default: op
+      Cobalt.cape:
+        description: Cobalt Cape Perm.
+        default: op
+      CrowdinTranslator.cape:
+        description: CrowdinTranslator Cape Perm.
+        default: op
+      CrowdinTranslatorChina.cape:
+        description: CrowdinTranslatorChina Cape Perm.
+        default: op
+      dannyBStyle.cape:
+        description: dannyBStyle Cape Perm.
+        default: op
+      JulianClark.cape:
+        description: JulianClark Cape Perm.
+        default: op
+      MapMaker.cape:
+        description: MapMaker Cape Perm.
+        default: op
+      Minecon2011.cape:
+        description: Minecon2011 Cape Perm.
+        default: op
+      Minecon2012.cape:
+        description: Minecon2012 Cape Perm.
+        default: op
+      Minecon2013.cape:
+        description: Minecon2013 Cape Perm.
+        default: op
+      Minecon2015.cape:
+        description: Minecon2015 Cape Perm.
+        default: op
+      Minecon2016.cape:
+        description: Minecon2016 Cape Perm.
+        default: op
+      Minecon2019.cape:
+        description: Minecon2019 Cape Perm.
+        default: op
+      Mojangnew.cape:
+        description: Mojangnew Cape Perm.
+        default: op
+      Mojangold.cape:
+        description: Mojangold Cape Perm.
+        default: op
+      MrMessiah.cape:
+        description: MrMessiah Cape Perm.
+        default: op
+      Newyear2011.cape:
+        description: Newyear2011 Cape Perm.
+        default: op
+      Prismarine.cape:
+        description: Prismarine Cape Perm.
+        default: op
+      Scrolls.cape:
+        description: Scrolls Cape Perm.
+        default: op
+      Turtles.cape:
+        description: Turtles Cape Perm.
+        default: op
+      Xmas.cape:
+        description: X-Mas Cape Perm.
+        default: op
+...
